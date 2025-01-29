@@ -1,0 +1,128 @@
+/* Common CSS Start */
+
+body {
+	margin: 0;
+	font-family: "Playfair Display", serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+
+/* Common CSS End */
+
+/* Header CSS Start */
+
+header {
+	padding: 40px 0px;
+}
+
+.container {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 90%;
+	
+}
+
+.logo {
+	margin-top: 8px;
+	float: left;
+	width: 12%;
+}
+
+.logo a {
+	
+}
+
+.logo a img {
+	width: 100%;
+}
+
+.menu {
+	float: right;
+	width: 75%;
+
+}
+
+.menu ul {
+	float: right;
+}
+
+
+.menu ul li {
+	float: left;
+	list-style: none;
+
+}
+
+.menu ul li a {
+	margin: 0px 50px;
+	display: inline-block;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 1px solid transparent;
+	transition: .33s linear;
+}
+
+.menu ul li:last-child a {
+	margin-right: 0px;
+}
+
+.menu ul li a:hover {
+	color: #000000;
+	border-bottom: 1px solid #626262;
+}
+
+/* Header CSS End */
+
+/* Banner Section CSS Start */
+
+.banner {}
+
+.banner-img {}
+
+.banner-img img {
+	width: 100%;
+}
+
+/* Banner Section CSS End */
+
+/* Article Section CSS Start */
+
+.article {
+	padding: 100px 0px;
+}
+
+.container2 {
+	margin: 0 auto;
+	width: 80%;
+}
+
+.a_content {}
+
+.c_link {
+	display: inline-block;
+	 font-family: "Ubuntu", serif;
+	 font-size: 14px;
+	 font-weight: 300;
+	 color: #626262;
+	 text-decoration: none;
+	 text-transform: uppercase;
+}
+
+.c_header {
+	margin: 20px 0px 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.c_text {
+	margin: 0;
+	line-height: 24px;
+}
+
+.comment {
+	margin-top: 45px;
+}
+/* Article Section CSS Start */
+
